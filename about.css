@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:poppins;
+    text-decoration:none;
+    text-transform:capitalize;
+    
+}
+
+
+
+body{
+    background-color: #000000;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background:#f6e102;
+    align-items: center;
+    display:flex;
+    padding: 16px 9%;
+    justify-content:space-between;
+    z-index:1000;
+    
+}
+
+header .logo{
+    font-size:40px;
+    color:#000000;
+    font-weight:bolder;
+
+}
+header .navbar a{
+    font-size:24px;
+    padding:24px;
+    color:#000000;
+}
+
+.heading{
+    font-size:56px;
+    padding-top:108px ;
+    padding-left: 43%;
+
+}
+
+.heading span{
+    color:#f6e102;
+}
+
+.about{
+    background:url('images/BG02.jpg') no-repeat;
+    min-height:100vh;
+    background-size:cover;
+    color: aliceblue; 
+    
+
+}
+
+.about .content{
+    display:flex;
+    padding-left: 96px;
+
+}
+
+.about .content span{
+    font-size:40px;
+    color:#f6e102;
+
+}
+
+.about .content h3{
+    font-size:32px;
+
+}
+
+.centered{
+    text-align: left;
+    padding: 90px;
+    padding-top: 48px;
+    font-size:24px;  
+    
+}
+
+.nav-acc{
+    background-color: transparent; 
+    font-weight:650;
+}
+  
+
