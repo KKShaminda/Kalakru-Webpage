@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:poppins;
+    text-decoration:none;
+    text-transform:capitalize;
+
+}
+
+body{
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background:#f6e102;
+    align-items: center;
+    display:flex;
+    padding: 16px 9%;
+    justify-content:space-between;
+    z-index:1000;
+    
+}
+
+header .logo{
+    font-size:40px;
+    color:#000000;
+    font-weight:bolder;
+
+}
+header .navbar a{
+    font-size:24px;
+    padding:24px;
+    color:#000000;
+}
+
+.nav-acc{
+    background-color: transparent; 
+    font-weight:650;
+}
+
+.products {
+    display:flex;
+    align-items:center;
+    min-height:100vh;
+    background:url('images/BG02.jpg') no-repeat;
+    background-size:cover; 
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px; 
+    padding-top: 72px;
+    justify-items: center;
+
+}
+  
+.box {
+    background-color: #f6e102;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+  
+  
+.box img {
+    border: 2px solid #f6e102;
+    width: 250px; 
+    height: 350px;
+    border-radius: 10px; 
+}
+
+.box h3 {
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+  
+.box p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.container .box:hover{
+    background: #000000;
+    border: 2px solid #f6e102;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.transparent-button {
+    background-color: transparent;
+    border: 2px solid #f6e102; 
+    color: #f6e102; 
+    padding: 10px 20px ;
+    font-size: 20px;
+    border-radius: 32px;
+    cursor: pointer;
+    text-align: center;
+    width: 70%;
+    
+    
+}
+  
+.transparent-button:hover {
+    background-color: #f6e102;
+    color: #000000; 
+
+}
+
